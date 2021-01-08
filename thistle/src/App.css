@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+.HeaderLinks {
+    position:absolute;
+    left:10%;top:0;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -26,6 +31,7 @@
 
 .App-link {
   color: #61dafb;
+  margin-right:180px;
 }
 
 @keyframes App-logo-spin {
