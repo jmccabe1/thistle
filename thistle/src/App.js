@@ -1,22 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import HeaderComponent from './HeaderComponent.js';
 
 function App() {
   return (
+  <HeaderComponent>
     <div className="App">
-      <header className="App-header">
-        <h1>Hello World -- Header</h1>
 
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-
-        </a>
-      </header>
     </div>
+    </HeaderComponent>
   );
 }
 
