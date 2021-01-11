@@ -4,7 +4,7 @@
 
 .HeaderLinks {
     position:absolute;
-    left:10%;top:0;
+    left:1%;top:0;
 }
 
 .App-logo {
@@ -16,6 +16,12 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.clickableLinks {
+  color: #61dafb;
+    margin-right:18px;
+    margin-top: 20px;
 }
 
 .App-header {
@@ -30,8 +36,7 @@
 }
 
 .App-link {
-  color: #61dafb;
-  margin-right:180px;
+
 }
 
 @keyframes App-logo-spin {
