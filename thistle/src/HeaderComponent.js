@@ -18,19 +18,21 @@ export default function App() {
   <Router>
     <div className="App">
       <header className="App-header">
-        <h1>Hello World -- Header</h1>
-        <div className="HeaderLinks">
-           <div className="clickableLinks">
-           <Link to="/">Home</Link></div>
-           <div className="clickableLinks">
-           <Link to="/About">About Us</Link></div>
-           <div className="clickableLinks">
-           <Link to="/Products">Our Products</Link></div>
-           <div className="clickableLinks">
-           <Link to="/Tips">Tips</Link></div>
-           <div className="clickableLinks">
-           <Link to="/Contact">Contact Us</Link></div>
+
+
+         <div className="HeaderLinks">
+         <div className="HeaderImage"><img src="http://thistlecreekhoneycompany.appspot.com/Images/BannerThistle.jpg" alt="Thistle" width="100" height="150"></img></div>
+            <div className="clickableLinks"><Link to="/">Home</Link></div>
+           <div className="clickableLinks"><Link to="/About">About Us</Link></div>
+           <div className="clickableLinks"><Link to="/Products">Our Products</Link></div>
+           <div className="clickableLinks"><Link to="/Tips">Tips</Link></div>
+            <div className="clickableLinks"><Link to="/Contact">Contact Us</Link></div>
         </div>
+
+           <h1>Hello World -- Header</h1>
+
+
+
 
         <Route component={Products} path="/Products" />
                             <Route component={About} path="/About" />

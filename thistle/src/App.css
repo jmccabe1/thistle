@@ -3,14 +3,20 @@
 }
 
 .HeaderLinks {
-    position:absolute;
-    left:1%;top:0;
+    vertical-align: top;
+    padding-top: 5px;
+    overflow: hidden;
+    display: inline;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.HeaderLinks a {
+    padding-left: 75px;
 }
+
+.HeaderImage {
+    display: inline;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -20,8 +26,10 @@
 
 .clickableLinks {
   color: #61dafb;
-    margin-right:18px;
-    margin-top: 20px;
+  display: inline;
+    align: top;
+    font-size: 16pt;
+    vertical-align: top;
 }
 
 .App-header {
@@ -30,7 +38,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -47,3 +54,4 @@
     transform: rotate(360deg);
   }
 }
+
