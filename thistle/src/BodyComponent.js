@@ -1,7 +1,5 @@
 import logo from './logo.svg';
 import './App.css';
-import HeaderComponent from './HeaderComponent.js';
-import BodyComponent from './BodyComponent.js';
 import React from "react";
 import {
   BrowserRouter as Router,
@@ -14,23 +12,14 @@ import Products from "./Products";
 import Contact from "./Contact";
 import Tips from "./Tips";
 
-function App() {
-  return (
-  <div>
-    <HeaderComponent>
-    <div className="App">
 
-    </div>
 
-    </HeaderComponent>
-    <BodyComponent>
+export default function App() {
+return (
     <div className="AppBody">
-
+        <div>
+            <h2>Welcome to Thistle Creek Honey Company</h2>
+        </div>
     </div>
-
-    </BodyComponent>
-    </div>
-  );
-}
-
-export default App;
+    );
+};

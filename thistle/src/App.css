@@ -1,12 +1,17 @@
 .App {
-  text-align: center;
+     background-image: url("http://thistlecreekhoneycompany.appspot.com/Images/honeybottlesunset.jpg");
+          height: 100%;
+          background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
 }
 
 .HeaderLinks {
     vertical-align: top;
     padding-top: 5px;
     overflow: hidden;
-    display: inline;
+        display: inline;
+    width: 100%;
 }
 
 .HeaderLinks a {
@@ -15,6 +20,13 @@
 
 .HeaderImage {
     display: inline;
+    text-align: left;
+}
+
+.LinkBar {
+    display: inline;
+    text-align: center;
+    width: 100%;
 }
 
 
@@ -26,20 +38,43 @@
 
 .clickableLinks {
   color: #61dafb;
-  display: inline;
+
     align: top;
     font-size: 16pt;
     vertical-align: top;
+display: inline-block;
+  margin: 0 auto;
+  padding: 3px;
 }
 
+.AppBody {
+
+    height: 500%;
+}
+
+body {
+    background-color: #DEDEFF;
+}
+
+
+
 .App-header {
-  background-color: #282c34;
+    background-color: #ffffff;
+      border: 1px solid black;
+      opacity: 0.6;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  width: 100%;
+}
+
+.App-header h1 {
+    margin: 5%;
+      font-weight: bold;
+      color: #000000;
 }
 
 .App-link {
