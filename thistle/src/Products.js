@@ -6,8 +6,8 @@ import {
   Link
 } from "react-router-dom";
 
-const About = () => {
+const Products = () => {
     return <h1>Our Products</h1>
 };
 
-export default About;
+export default Products;

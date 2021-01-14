@@ -18,16 +18,8 @@ function App() {
   return (
   <div>
     <HeaderComponent>
-    <div className="App">
-
-    </div>
-
     </HeaderComponent>
     <BodyComponent>
-    <div className="AppBody">
-
-    </div>
-
     </BodyComponent>
     </div>
   );
