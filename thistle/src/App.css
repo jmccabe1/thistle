@@ -48,7 +48,6 @@ display: inline-block;
 }
 
 .AppBody {
-
     height: 500%;
 }
 
@@ -56,7 +55,35 @@ body {
     background-color: #DEDEFF;
 }
 
+.footer {
+    background-color: #DEDEFF;
+    height: 90px;
+    font-family: "Franklin Gothic Medium";
+}
 
+.footerName {
+    display: inline;
+    font-size: 15pt;
+    padding-left: 10px;
+}
+
+.footerEmail {
+
+    display: flex;
+    justify-content: center;
+    font-size: 15pt;
+}
+
+.footerFacebook {
+    display: inline;
+    float: right;
+    padding-right: 10px;
+}
+
+.facebookImage {
+    height: 36px;
+    width: 36px;
+}
 
 .App-header {
     background-color: #ffffff;
