@@ -16,10 +16,13 @@ import Tips from "./Tips";
 
 export default function App() {
 return (
-    <div className="AppBody">
-        <div>
-            <h2>Welcome to Thistle Creek Honey Company</h2>
-        </div>
+<Router>
+<div className="AppBody">
+        <Route component={Products} path="/Products" />
+                                    <Route component={About} path="/About" />
+                                    <Route component={Contact} path="/Contact" />
+                                    <Route component={Tips} path="/Tips" />
     </div>
+    </Router>
     );
 };
