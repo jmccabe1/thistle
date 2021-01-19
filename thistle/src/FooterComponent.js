@@ -14,6 +14,10 @@ import Tips from "./Tips";
 
 export default function App() {
   return (
+  <div>
+  <br/>
+  <br/>
+
     <div className="footer">
         <div className="footerEmail"><a href="mailto:thistlecreekhoneycompany@gmail.com">Contact Us</a></div>
         <div className="footerName">Thistle Creek Honey Company</div>
@@ -22,6 +26,7 @@ export default function App() {
                 <img src="iconfinder_Rounded_Facebook_svg_5282541.png" alt="Facebook" className="facebookImage"></img>
             </a>
         </div>
+    </div>
     </div>
   );
 }
