@@ -28,11 +28,12 @@ export default function App() {
             <div className="clickableLinks"><Link to="/Contact">Contact Us</Link></div>
          </div>
         </div>
-        <Route component={Products} path="/Products" />
 
-                            <Route component={Contact} path="/Contact" />
-                            <Route component={Tips} path="/Tips" />
       </header>
+      <Route component={Products} path="/Products" />
+        <Route component={About} path="/About" />
+                                  <Route component={Contact} path="/Contact" />
+                                  <Route component={Tips} path="/Tips" />
     </div>
     </Router>
   );

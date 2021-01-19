@@ -1,5 +1,5 @@
 .App {
-    /* background-image: url("http://thistlecreekhoneycompany.appspot.com/Images/honeybottlesunset.jpg");*/
+     /*background-image: url("http://thistlecreekhoneycompany.appspot.com/Images/honeybottlesunset.jpg");*/
           height: 10%;
           background-position: center;
             background-repeat: no-repeat;
@@ -49,6 +49,11 @@ display: inline-block;
 
 .AppBody {
     height: 500%;
+}
+
+.TipText {
+    text-indent: 15px;
+    padding-left: 15px;
 }
 
 body {
