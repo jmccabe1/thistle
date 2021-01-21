@@ -6,6 +6,17 @@
             background-size: cover;
 }
 
+.column {
+    float: left;
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .HeaderLinks {
     vertical-align: top;
     padding-top: 5px;
