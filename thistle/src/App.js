@@ -10,10 +10,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import About from "./About";
-import Products from "./Products";
-import Contact from "./Contact";
-import Tips from "./Tips";
+
 
 function App() {
   return (

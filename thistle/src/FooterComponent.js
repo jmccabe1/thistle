@@ -7,16 +7,12 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import About from "./About";
-import Products from "./Products";
-import Contact from "./Contact";
-import Tips from "./Tips";
 
 export default function App() {
   return (
   <div>
   <br/>
-  <br/>
+    <br/>
 
     <div className="footer">
         <div className="footerEmail"><a href="mailto:thistlecreekhoneycompany@gmail.com">Contact Us</a></div>

@@ -5,20 +5,21 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import BodyComponent from './BodyComponent.js';
 
-export default function About() {
+const About = () => {
     return (
-    <div className="MainContent">
-    <div className="AboutText">
-        <h2>It started as a beekeeping hobby and a quest for skin care products that are better for you and the environment.<br/>
-            <br/>
-            It ended with jars of honey and a suite of bath products that we far prefer to anything we can find in a store.</h2>
-    </div>
-    <div className="AboutImage">
-        <img src="smoker.jpg"></img>
-    </div>
-    </div>
+        <div className="MainContent">
+            <div className="AboutText">
+                <p><u>It started as a beekeeping hobby and a quest for skin care products that are better for you and the environment.<br/>
+                    <br/>
+                    It ended with jars of honey and a suite of bath products that we far prefer to anything we can find in a store.</u></p>
+            </div>
+            <div className="AboutImage">
+                <img src="smoker.jpg"></img>
+            </div>
+            </div>
 
     )
 };
+
+export default About;

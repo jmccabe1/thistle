@@ -18,10 +18,7 @@ export default function App() {
 return (
 <Router>
 <div className="AppBody">
-        <Route component={Products} path="/Products" />
-                                    <Route component={About} path="/About" />
-                                    <Route component={Contact} path="/Contact" />
-                                    <Route component={Tips} path="/Tips" />
+
     </div>
     </Router>
     );

@@ -1,9 +1,38 @@
 .App {
-    /* background-image: url("http://thistlecreekhoneycompany.appspot.com/Images/honeybottlesunset.jpg");*/
+     /*background-image: url("http://thistlecreekhoneycompany.appspot.com/Images/honeybottlesunset.jpg");*/
           height: 10%;
           background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    font-size: 19px;
+    color: #282828;
+
+}
+
+.column h2 {
+        font-family: "Palatino Linotype";
+                text-decoration: underline;
+                font-size: 36px;
+                color: #088A08;
+}
+
+.gridPicture {
+    width: 100%;
+}
+
+.gridPicture img {
+    width: 60%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .HeaderLinks {
@@ -51,20 +80,58 @@ display: inline-block;
     height: 500%;
 }
 
+.TipTitle {
+    font-family: "Palatino Linotype";
+        text-decoration: underline;
+        font-size: 18px;
+        color: #088A08;
+}
+
+.TipText h3 {
+    font-family: "Palatino Linotype";
+        text-decoration: underline;
+        font-size: 20pt;
+        color: #088A08;
+}
+
+
+.TipText {
+    text-indent: 15px;
+    padding-left: 15px;
+    font-size: 18px;
+}
+
 body {
     background-color: #DEDEFF;
 }
 
 .AboutText {
-       padding-left: 10px;
+       padding-left: 30px;
        width: 40%;
        display: inline-block;
+       font-size: 20pt;
+       color: #088A08;
+}
+.partnerLink1 {
+    display: inline-block;
+    margin: 30px;
+}
+
+.partnerLink2 {
+    display: inline-block;
+    margin: 30px;
+    float: right;
+    max-width: 100%;
+}
+
+.partners {
+    height: 350px;
 }
 
 .AboutImage {
        float: right;
        padding-right: 10px;
-       width: 30%;
+       width: 32%;
        display: inline-block;
 }
 
@@ -73,7 +140,7 @@ body {
 }*/
 
 .AboutImage img {
-    max-width: 200px;
+    max-width: 50%;
 
 }
 
@@ -108,7 +175,7 @@ body {
 }
 
 .App-header {
-    background-color: #ffffff;
+    background-color: #f0f0ff;
       border: 1px solid black;
       opacity: 0.6;
   min-height: 100px;
