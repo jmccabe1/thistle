@@ -18,6 +18,10 @@ const Products = () => {
 
                    <p>We’re not selling honey by mail, but if you’re in the Maryland area, please
                    <a href="mailto:thistlecreekhoneycompany@gmail.com"> Contact Us</a> and we can tell you if we have any honey available.</p>
+                   <br/>
+                   <div className="gridPicture">
+                   <img src="honeybottlesunset.jpg" alt="Our Honey"></img>
+                   </div>
               </div>
               <div class="column">
                 <h2>Herbal Salve</h2>
@@ -33,6 +37,10 @@ const Products = () => {
                 this should be used within 6 months of purchase.</p>
                 <p>Ingredients: beeswax, meadowfoam seed oil, sunflower seed oil, babassu oil, avocado oil, sweet almond oil, argan oil,
                 cocoa butter, shea butter, comfrey, calendula, plantain, chickweed, lavender essential oil, rose geranium essential oil</p>
+                <br/>
+                <div className="gridPicture">
+                    <img src="lipbalm.jfif" alt="Some of our salves"></img>
+                </div>
               </div>
             </div>
 
@@ -49,6 +57,10 @@ const Products = () => {
                 lanolin, hyaluronic acid, glycerin and essential oils.</p>
                 <p>Our Citrus Scented Calendula & Aloe lotion is available in a 4 oz bottle.
                    As with all handcrafted lotion products, this should be used within 6 months of purchase.</p>
+                   <br/>
+                   <div className="gridPicture">
+                    <img src="lipbalmset.jpg" alt="Our favorite lip balm"></img>
+                   </div>
               </div>
               <div class="column">
                 <h2>Soap</h2>
@@ -65,6 +77,10 @@ const Products = () => {
                     <li>Buy a soap saver, soap dish, or remove from shower</li>
                     <li>Let soap completely dry between uses</li>
                 </ul>
+                <br/>
+                <div className="gridPicture">
+                    <img src="soapbarset.jpg" alt="Our best soaps"></img>
+                </div>
               </div>
             </div>
         </div>

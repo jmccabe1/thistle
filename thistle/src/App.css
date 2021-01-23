@@ -11,6 +11,14 @@
     width: 50%;
 }
 
+.gridPicture {
+    width: 100%;
+}
+
+.gridPicture img {
+    width: 80%;
+}
+
 .row:after {
     content: "";
     display: table;
@@ -139,7 +147,7 @@ body {
 }
 
 .App-header {
-    background-color: #ffffff;
+    background-color: #DEDEFF;
       border: 1px solid black;
       opacity: 0.6;
   min-height: 100px;

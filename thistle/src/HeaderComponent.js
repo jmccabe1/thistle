@@ -19,7 +19,7 @@ export default function App() {
     <div className="App">
       <header className="App-header">
          <div className="HeaderLinks">
-         <div className="HeaderImage"><img src="http://thistlecreekhoneycompany.appspot.com/Images/BannerThistle.jpg" alt="Thistle" width="100" height="150"></img></div>
+         <div className="HeaderImage"><img src="thistle_transparent_background.png" alt="Thistle" width="100" height="150"></img></div>
          <div className="LinkBar">
             <div className="clickableLinks"><Link to="/">Home</Link></div>
             <div className="clickableLinks"><Link to="/About">About Us</Link></div>
