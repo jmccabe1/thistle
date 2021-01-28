@@ -11,6 +11,7 @@ import About from "./About";
 import Products from "./Products";
 import Contact from "./Contact";
 import Tips from "./Tips";
+import Home from "./Home";
 
 
 export default function App() {
@@ -34,6 +35,7 @@ export default function App() {
         <Route component={About} path="/About" />
                                   <Route component={Contact} path="/Contact" />
                                   <Route component={Tips} path="/Tips" />
+                                  <Route component={Home} exact path="/" />
     </div>
     </Router>
   );

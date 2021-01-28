@@ -115,12 +115,17 @@ body {
        padding-left: 30px;
        width: 40%;
        display: inline-block;
-       font-size: 20pt;
-       color: #088A08;
+       font-size: 16pt;
 }
+
 .partnerLink1 {
     display: inline-block;
     margin: 30px;
+}
+
+.HomeImage img {
+    object-fit: cover;
+    width: 100vw;
 }
 
 .partnerLink2 {
