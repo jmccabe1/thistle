@@ -8,10 +8,10 @@
 
 .column {
     float: left;
-    width: 50%;
+    width: 45%;
     font-size: 19px;
     color: #282828;
-
+    padding-left: 22px;
 }
 
 .column h2 {
@@ -35,26 +35,41 @@
     clear: both;
 }
 
+.HeaderTitle {
+    color: #088A08;
+    font-weight: bold;
+    font-size: 50pt;
+    font-family: "Palatino Linotype";
+    display: flex;
+    padding-left: 75px;
+}
+
 .HeaderLinks {
     vertical-align: top;
     padding-top: 5px;
     overflow: hidden;
-        display: inline;
-    width: 100%;
+        display: inline-block;
+    width: 70vw;
+    display: inline-block;
 }
 
 .HeaderLinks a {
     padding-left: 75px;
 }
 
-.HeaderImage {
-    display: inline;
-    text-align: left;
+.HeaderImage img {
+    float: left;
+    padding-left: 22px;
+    display: inline-block;
+}
+
+.HeaderMain {
+    width: 100vw;
 }
 
 .LinkBar {
-    display: inline;
-    text-align: center;
+    display: inline-block;
+
     width: 100%;
 }
 
@@ -85,13 +100,15 @@ display: inline-block;
         text-decoration: underline;
         font-size: 18px;
         color: #088A08;
+        padding-left: 22px;
 }
 
 .TipText h3 {
     font-family: "Palatino Linotype";
-        text-decoration: underline;
+
         font-size: 20pt;
         color: #088A08;
+        padding-left: 22px;
 }
 
 
@@ -99,12 +116,13 @@ display: inline-block;
     text-indent: 15px;
     padding-left: 15px;
     font-size: 18px;
+    padding-left: 22px;
 }
 
 .TipText p {
     font-family: "Palatino Linotype";
     font-size: 17pt;
-            color: #088A08;
+padding-left: 22px;
 }
 
 body {
@@ -159,7 +177,7 @@ body {
     background-color: #DEDEFF;
     height: 70px;
     font-family: "Franklin Gothic Medium";
-
+    padding-left: 22px;
 }
 
 .footerName {
