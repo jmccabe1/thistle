@@ -16,12 +16,12 @@ const Contact = () => {
         via email or find out products at one of the local retailers we’ve partnered with:</p>
         </div>
         <div className="partners">
-            <div className="partnerLink1">
+            <div className="partnerLink">
                 <a href="https://www.unwinedcandles.com" target="_blank">
                     <img src="unwined.png" alt="Unwined Candles"></img>
                 </a>
             </div>
-            <div className="partnerLink2">
+            <div className="partnerLink">
                 <a href="https://www.facebook.com/Its-Neighbor-Made-104643704440968/" target="_blank">
                     <img src="neighbor.jpg" alt="It's Neighbor Made"></img>
                 </a>

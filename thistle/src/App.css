@@ -136,9 +136,12 @@ body {
        font-size: 16pt;
 }
 
-.partnerLink1 {
-    display: inline-block;
-    margin: 30px;
+.partnerLink {
+float: left;
+    width: 45%;
+    font-size: 19px;
+    color: #282828;
+    padding-left: 22px;
 }
 
 .HomeImage img {
@@ -146,15 +149,16 @@ body {
     width: 100vw;
 }
 
-.partnerLink2 {
-    display: inline-block;
-    margin: 30px;
-    float: right;
-    max-width: 100%;
-}
+
 
 .partners {
     height: 350px;
+}
+
+.partners:after {
+    content: "";
+        display: table;
+        clear: both;
 }
 
 .AboutImage {
