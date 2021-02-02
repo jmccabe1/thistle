@@ -38,10 +38,11 @@
 .HeaderTitle {
     color: #088A08;
     font-weight: bold;
-    font-size: 50pt;
-    font-family: "Palatino Linotype";
+    font-size: 30pt;
+    font-family: "Lucienda";
     display: flex;
     padding-left: 75px;
+    padding-top: 12px;
 }
 
 .HeaderLinks {
@@ -59,7 +60,7 @@
 
 .HeaderImage img {
     float: left;
-    padding-left: 22px;
+    padding-left: 42px;
     display: inline-block;
 }
 
@@ -146,7 +147,13 @@ float: left;
 
 .HomeImage img {
     object-fit: cover;
-    width: 100vw;
+    width: 45vw;
+    padding-left: 27.5vw;
+
+}
+
+.HomeImage {
+
 }
 
 
