@@ -24,7 +24,7 @@ export default function App() {
          <div className="HeaderLinks">
             <div className="LinkBar">
                 <div className="clickableLinks"><Link to="/">Home</Link></div>
-                <div className="clickableLinks"><Link to="/About">About Us</Link></div>
+                                <div className="clickableLinks"><Link to="/About">About Us</Link></div>
                 <div className="clickableLinks"><Link to="/Products">Our Products</Link></div>
                 <div className="clickableLinks"><Link to="/Tips">Tips</Link></div>
                 <div className="clickableLinks"><Link to="/Contact">Contact Us</Link></div>

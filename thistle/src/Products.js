@@ -59,7 +59,7 @@ const Products = () => {
                    As with all handcrafted lotion products, this should be used within 6 months of purchase.</p>
                    <br/>
                    <div className="gridPicture">
-                    <img src="lipbalmset.jpg" alt="Our favorite lip balm"></img>
+                    <img src="LotionWeb.jfif" alt="Our favorite lip balm"></img>
                    </div>
               </div>
               <div class="column">
