@@ -53,7 +53,7 @@ const Products = () => {
                 works on a cellular level to smooth skin. We carefully chose exquisite oils such as meadowfoam seed oil, jojoba seed oil and
                 shea butter because each of them adds it own emollient properties to a soothing lotion that absorbs quickly and never leaves
                 a greasy residue.</p>
-                <p>ngredients include Aloe vera, calendula-infused in sunflower oil, meadowfoam oil, shea butter, coconut oil, jojoba oil,
+                <p>Ingredients include aloe vera, calendula-infused in sunflower oil, meadowfoam oil, shea butter, coconut oil, jojoba oil,
                 lanolin, hyaluronic acid, glycerin and essential oils.</p>
                 <p>Our Citrus Scented Calendula & Aloe lotion is available in a 4 oz bottle.
                    As with all handcrafted lotion products, this should be used within 6 months of purchase.</p>
