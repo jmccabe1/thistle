@@ -20,7 +20,11 @@ export default function App() {
     <div className="App">
       <header className="App-header">
       <div className="HeaderMain">
-      <div className="HeaderImage"><img src="thistle_transparent_background.png" alt="Thistle" width="100" height="150"></img></div>
+      <div className="HeaderImage">
+        <Link to="/">
+            <img src="thistle_transparent_background.png" alt="Thistle" width="100" height="150"></img>
+        </Link>
+      </div>
          <div className="HeaderLinks">
             <div className="LinkBar">
                 <div className="clickableLinks"><Link to="/">Home</Link></div>

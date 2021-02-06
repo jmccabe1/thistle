@@ -82,14 +82,33 @@
 }
 
 .clickableLinks {
-  color: #61dafb;
-
     align: top;
     font-size: 16pt;
     vertical-align: top;
 display: inline-block;
   margin: 0 auto;
   padding: 3px;
+  color: #551A8B;
+}
+
+a:link {
+    color: #551A8B;
+}
+
+a:visited {
+    color: #551A8B;
+}
+
+a:focus {
+    color: #551A8B;
+}
+
+a:hover {
+    color: #551A8B;
+}
+
+a:active {
+    color: #551A8B;
 }
 
 .AppBody {

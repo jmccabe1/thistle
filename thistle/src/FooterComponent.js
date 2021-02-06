@@ -18,7 +18,7 @@ export default function App() {
         <div className="footerName">Thistle Creek Honey Company</div>
         <div className="footerEmail"><a href="mailto:thistlecreekhoneycompany@gmail.com">Contact Us</a></div>
         <div className="footerFacebook">
-            <a href="https://www.facebook.com/pages/category/Cosmetics-Store/Thistle-Creek-Honey-Company-259106467598985/">
+            <a href="https://www.facebook.com/pages/category/Cosmetics-Store/Thistle-Creek-Honey-Company-259106467598985/" target="_blank">
                 <img src="iconfinder_Rounded_Facebook_svg_5282541.png" alt="Facebook" className="facebookImage"></img>
             </a>
         </div>
