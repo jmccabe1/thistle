@@ -10,7 +10,7 @@ const Home = () => {
     return (
         <div className="HomePage">
             <div className="HomeImage">
-                <img src="honeybottlesunset2.jpg"></img>
+                <img src="honeybottlesunset5.png"></img>
 
             </div>
 

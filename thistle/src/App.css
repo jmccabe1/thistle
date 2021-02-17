@@ -168,11 +168,12 @@ float: left;
     object-fit: cover;
     width: 45vw;
     padding-left: 27.5vw;
-
+    max-width: 150%;
+    max-height: 150%;
 }
 
 .HomeImage {
-
+    width: 100%;
 }
 
 
