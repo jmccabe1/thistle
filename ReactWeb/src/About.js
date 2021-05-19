@@ -15,7 +15,7 @@ const About = () => {
                     It ended with jars of honey, and a suite of bath products that we far prefer to anything we can find in a store.</p>
             </div>
             <div className="AboutImage">
-                <img src="smoker.jpg"></img>
+                <img src="aboutus.png"></img>
             </div>
             </div>
 
