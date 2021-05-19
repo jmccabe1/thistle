@@ -16,9 +16,9 @@
 
 .column h2 {
         font-family: "Palatino Linotype";
-                text-decoration: underline;
+
                 font-size: 36px;
-                color: #088A08;
+                color: #6f048a;
 }
 
 .gridPicture {
@@ -36,7 +36,7 @@
 }
 
 .HeaderTitle {
-    color: #256904;
+    color: #8501a7;
     font-weight: bold;
     font-size: 30pt;
     font-family: "Monotype Corsiva";
@@ -117,9 +117,9 @@ a:active {
 
 .TipTitle {
     font-family: "Palatino Linotype";
-        text-decoration: underline;
+
         font-size: 18px;
-        color: #088A08;
+        color: #6f048a;
         padding-left: 22px;
 }
 
@@ -127,7 +127,7 @@ a:active {
     font-family: "Palatino Linotype";
 
         font-size: 20pt;
-        color: #088A08;
+        color: #6f048a;
         padding-left: 22px;
 }
 
@@ -203,7 +203,6 @@ float: left;
 }
 
 .footer {
-    background-color: #F2D3AD;
     height: 70px;
     font-family: "Franklin Gothic Medium";
     padding-left: 22px;
@@ -211,12 +210,12 @@ float: left;
 
 .footerName {
     font-size: 12pt;
-    color: #088A08;
+    color: #000000;
 }
 
 .footerEmail {
     font-size: 12pt;
-    color: #088A08;
+    color: #b714b9;
 }
 
 .footerFacebook {
@@ -230,7 +229,7 @@ float: left;
 }
 
 .App-header {
-    background-color: #F9D196;
+    background-color: #F5DFB3;
       border: 1px solid black;
       opacity: 0.6;
   min-height: 100px;
